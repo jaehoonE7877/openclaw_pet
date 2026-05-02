@@ -26,6 +26,18 @@ For example:
   spritesheet.webp
 ```
 
+This repository keeps the installable pet package in `openclaw/`:
+
+```text
+openclaw_pet/
+  README.md
+  LICENSE
+  THIRD_PARTY_NOTICES.md
+  openclaw/
+    pet.json
+    spritesheet.webp
+```
+
 ### Install With Codex
 
 Copy and paste this prompt into Codex:
@@ -35,13 +47,11 @@ Install the OpenClaw pet from this repository into my local Codex app pets direc
 
 Requirements:
 - Find the completed OpenClaw pet package in this repository
-- If this repository has an openclaw/ package folder, copy that folder
-- If pet.json and spritesheet.webp are at the repository root, create the package folder yourself
+- Copy the `openclaw/` package folder
 - Put the completed pet package at ~/.codex/pets/openclaw/
 - Make sure ~/.codex/pets/openclaw/pet.json exists
 - Make sure ~/.codex/pets/openclaw/spritesheet.webp exists
 - Create ~/.codex/pets/ if it does not already exist
-- Do not place the repository itself at ~/.codex/pets/openclaw/ unless pet.json is directly inside that folder
 - After copying, verify the installed files and tell me the final path
 ```
 
@@ -54,19 +64,9 @@ does not appear immediately.
 Download or clone this repository, then copy the completed pet package into your
 Codex pets directory.
 
-If the repository contains an `openclaw/` pet package folder, use:
-
-```bash
-mkdir -p ~/.codex/pets
-cp -R openclaw ~/.codex/pets/openclaw
-```
-
-If `pet.json` and `spritesheet.webp` are at the repository root instead, create
-the package folder first and copy the files into it:
-
 ```bash
 mkdir -p ~/.codex/pets/openclaw
-cp pet.json spritesheet.webp ~/.codex/pets/openclaw/
+cp openclaw/pet.json openclaw/spritesheet.webp ~/.codex/pets/openclaw/
 ```
 
 When finished, confirm the files are in the expected location:

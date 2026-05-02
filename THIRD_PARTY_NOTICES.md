@@ -58,13 +58,12 @@ official affiliation, endorsement, or sponsorship.
 
 ## Asset Provenance
 
-When adding generated pet assets to this repository, keep a short source note in
-the repository documenting:
+This repository includes the installable Codex pet package at `openclaw/`.
+The packaged `openclaw/spritesheet.webp` asset was imported from the local Codex
+pet package at `~/.codex/pets/openclaw/` on 2026-05-02.
 
-- the OpenClaw source file, URL, screenshot, or reference image used;
-- the generation or transformation process used to create the pet asset;
-- whether the asset is a direct copy, modified copy, or newly generated image
-  based on OpenClaw references.
+The asset is fan-made Codex pet artwork inspired by OpenClaw visual references.
+It is distributed with the OpenClaw attribution and non-affiliation notice above.
 
 This helps downstream users preserve attribution and evaluate whether the asset
 is safe to redistribute.
