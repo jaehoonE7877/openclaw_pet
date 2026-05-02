@@ -2,6 +2,12 @@
 
 Unofficial Codex pet assets inspired by OpenClaw.
 
+<p align="center">
+  <img src="assets/gifs/idle.gif" width="160" alt="OpenClaw idle animation">
+  <img src="assets/gifs/running.gif" width="160" alt="OpenClaw running animation">
+  <img src="assets/gifs/waving.gif" width="160" alt="OpenClaw waving animation">
+</p>
+
 ## Installation
 
 Codex pets are loaded from:
@@ -33,6 +39,11 @@ openclaw_pet/
   README.md
   LICENSE
   THIRD_PARTY_NOTICES.md
+  assets/
+    gifs/
+      idle.gif
+      running.gif
+      waving.gif
   openclaw/
     pet.json
     spritesheet.webp
@@ -76,6 +87,25 @@ ls ~/.codex/pets/openclaw
 ```
 
 You should see `pet.json` and `spritesheet.webp`.
+
+## Motions
+
+| Idle | Running | Waving |
+|---|---|---|
+| <img src="assets/gifs/idle.gif" width="140" alt="OpenClaw idle animation"> | <img src="assets/gifs/running.gif" width="140" alt="OpenClaw running animation"> | <img src="assets/gifs/waving.gif" width="140" alt="OpenClaw waving animation"> |
+
+<details>
+<summary>View all motions</summary>
+
+| Waiting | Jumping | Review | Failed |
+|---|---|---|---|
+| <img src="assets/gifs/waiting.gif" width="140" alt="OpenClaw waiting animation"> | <img src="assets/gifs/jumping.gif" width="140" alt="OpenClaw jumping animation"> | <img src="assets/gifs/review.gif" width="140" alt="OpenClaw review animation"> | <img src="assets/gifs/failed.gif" width="140" alt="OpenClaw failed animation"> |
+
+| Running Left | Running Right |
+|---|---|
+| <img src="assets/gifs/running-left.gif" width="140" alt="OpenClaw running left animation"> | <img src="assets/gifs/running-right.gif" width="140" alt="OpenClaw running right animation"> |
+
+</details>
 
 ## License
 
